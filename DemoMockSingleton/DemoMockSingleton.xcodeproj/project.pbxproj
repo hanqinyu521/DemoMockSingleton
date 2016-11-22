@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0721A9FE1DE2FC0500407117 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0721A9FD1DE2FC0500407117 /* main.m */; };
+		0721AA011DE2FC0500407117 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0721AA001DE2FC0500407117 /* AppDelegate.m */; };
+		0721AA041DE2FC0500407117 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0721AA031DE2FC0500407117 /* ViewController.m */; };
+		0721AA071DE2FC0500407117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0721AA051DE2FC0500407117 /* Main.storyboard */; };
+		0721AA0A1DE2FC0500407117 /* DemoMockSingleton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0721AA081DE2FC0500407117 /* DemoMockSingleton.xcdatamodeld */; };
+		0721AA0C1DE2FC0500407117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0721AA0B1DE2FC0500407117 /* Assets.xcassets */; };
+		0721AA0F1DE2FC0500407117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0721AA0D1DE2FC0500407117 /* LaunchScreen.storyboard */; };
+		0721AA251DE2FC0500407117 /* DemoMockSingletonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0721AA241DE2FC0500407117 /* DemoMockSingletonUITests.m */; };
+		0721AA341DE2FCB000407117 /* HQYSharedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0721AA331DE2FCB000407117 /* HQYSharedManager.m */; };
+		0721AA431DE3DC0900407117 /* HQYBaseTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0721AA421DE3DC0900407117 /* HQYBaseTestCase.m */; };
+		0721AA451DE3DC2500407117 /* DemoMockSingletonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0721AA441DE3DC2500407117 /* DemoMockSingletonTest.m */; };
+		0721AA481DE3DE1600407117 /* NSObject+SupersequentImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0721AA471DE3DE1600407117 /* NSObject+SupersequentImplementation.m */; };
+		91EF01A01A9C806673508CB1 /* libPods-DemoMockSingleton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E88887FC99542811BC83D9F0 /* libPods-DemoMockSingleton.a */; };
+		A1DD835E322ACBF57ACD7574 /* libPods-DemoMockSingletonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A89E340E6D5D7FA3FB130D04 /* libPods-DemoMockSingletonTests.a */; };
+		E6B045DA468DD92C6A62B3C3 /* libPods-DemoMockSingletonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 256FE1C663FC51E18F223159 /* libPods-DemoMockSingletonUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0721AA161DE2FC0500407117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0721A9F11DE2FC0500407117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0721A9F81DE2FC0500407117;
+			remoteInfo = DemoMockSingleton;
+		};
+		0721AA211DE2FC0500407117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0721A9F11DE2FC0500407117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0721A9F81DE2FC0500407117;
+			remoteInfo = DemoMockSingleton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0721A9F91DE2FC0500407117 /* DemoMockSingleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMockSingleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0721A9FD1DE2FC0500407117 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0721A9FF1DE2FC0500407117 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0721AA001DE2FC0500407117 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0721AA021DE2FC0500407117 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0721AA031DE2FC0500407117 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0721AA061DE2FC0500407117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0721AA091DE2FC0500407117 /* DemoMockSingleton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoMockSingleton.xcdatamodel; sourceTree = "<group>"; };
+		0721AA0B1DE2FC0500407117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0721AA0E1DE2FC0500407117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0721AA101DE2FC0500407117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0721AA151DE2FC0500407117 /* DemoMockSingletonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoMockSingletonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0721AA1B1DE2FC0500407117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0721AA201DE2FC0500407117 /* DemoMockSingletonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoMockSingletonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0721AA241DE2FC0500407117 /* DemoMockSingletonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoMockSingletonUITests.m; sourceTree = "<group>"; };
+		0721AA261DE2FC0500407117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0721AA321DE2FCB000407117 /* HQYSharedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQYSharedManager.h; sourceTree = "<group>"; };
+		0721AA331DE2FCB000407117 /* HQYSharedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQYSharedManager.m; sourceTree = "<group>"; };
+		0721AA411DE3DC0900407117 /* HQYBaseTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQYBaseTestCase.h; sourceTree = "<group>"; };
+		0721AA421DE3DC0900407117 /* HQYBaseTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQYBaseTestCase.m; sourceTree = "<group>"; };
+		0721AA441DE3DC2500407117 /* DemoMockSingletonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMockSingletonTest.m; sourceTree = "<group>"; };
+		0721AA461DE3DE1600407117 /* NSObject+SupersequentImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SupersequentImplementation.h"; sourceTree = "<group>"; };
+		0721AA471DE3DE1600407117 /* NSObject+SupersequentImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SupersequentImplementation.m"; sourceTree = "<group>"; };
+		1A06DF29255BC4B2198883A7 /* Pods-DemoMockSingleton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMockSingleton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoMockSingleton/Pods-DemoMockSingleton.debug.xcconfig"; sourceTree = "<group>"; };
+		256FE1C663FC51E18F223159 /* libPods-DemoMockSingletonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoMockSingletonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C32A0C0499DA73900B703EF /* Pods-DemoMockSingletonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMockSingletonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoMockSingletonUITests/Pods-DemoMockSingletonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A89E340E6D5D7FA3FB130D04 /* libPods-DemoMockSingletonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoMockSingletonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAC59AFBC8DFC945D797FAD /* Pods-DemoMockSingletonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMockSingletonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoMockSingletonTests/Pods-DemoMockSingletonTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF05446B6B3239A4B66DBFF6 /* Pods-DemoMockSingletonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMockSingletonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoMockSingletonUITests/Pods-DemoMockSingletonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E4DB4AFE8B86311F889A7083 /* Pods-DemoMockSingletonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMockSingletonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoMockSingletonTests/Pods-DemoMockSingletonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6CE715F6F619AC561DE6DB1 /* Pods-DemoMockSingleton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMockSingleton.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoMockSingleton/Pods-DemoMockSingleton.release.xcconfig"; sourceTree = "<group>"; };
+		E88887FC99542811BC83D9F0 /* libPods-DemoMockSingleton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoMockSingleton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0721A9F61DE2FC0500407117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EF01A01A9C806673508CB1 /* libPods-DemoMockSingleton.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0721AA121DE2FC0500407117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DD835E322ACBF57ACD7574 /* libPods-DemoMockSingletonTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0721AA1D1DE2FC0500407117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B045DA468DD92C6A62B3C3 /* libPods-DemoMockSingletonUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0721A9F01DE2FC0500407117 = {
+			isa = PBXGroup;
+			children = (
+				0721A9FB1DE2FC0500407117 /* DemoMockSingleton */,
+				0721AA181DE2FC0500407117 /* DemoMockSingletonTests */,
+				0721AA231DE2FC0500407117 /* DemoMockSingletonUITests */,
+				0721A9FA1DE2FC0500407117 /* Products */,
+				BD022D40953A2746742BF57A /* Pods */,
+				36BDBBC4914E630A94BB784C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0721A9FA1DE2FC0500407117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0721A9F91DE2FC0500407117 /* DemoMockSingleton.app */,
+				0721AA151DE2FC0500407117 /* DemoMockSingletonTests.xctest */,
+				0721AA201DE2FC0500407117 /* DemoMockSingletonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0721A9FB1DE2FC0500407117 /* DemoMockSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				0721A9FF1DE2FC0500407117 /* AppDelegate.h */,
+				0721AA001DE2FC0500407117 /* AppDelegate.m */,
+				0721AA021DE2FC0500407117 /* ViewController.h */,
+				0721AA031DE2FC0500407117 /* ViewController.m */,
+				0721AA321DE2FCB000407117 /* HQYSharedManager.h */,
+				0721AA331DE2FCB000407117 /* HQYSharedManager.m */,
+				0721AA051DE2FC0500407117 /* Main.storyboard */,
+				0721AA0B1DE2FC0500407117 /* Assets.xcassets */,
+				0721AA0D1DE2FC0500407117 /* LaunchScreen.storyboard */,
+				0721AA101DE2FC0500407117 /* Info.plist */,
+				0721AA081DE2FC0500407117 /* DemoMockSingleton.xcdatamodeld */,
+				0721A9FC1DE2FC0500407117 /* Supporting Files */,
+			);
+			path = DemoMockSingleton;
+			sourceTree = "<group>";
+		};
+		0721A9FC1DE2FC0500407117 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0721A9FD1DE2FC0500407117 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0721AA181DE2FC0500407117 /* DemoMockSingletonTests */ = {
+			isa = PBXGroup;
+			children = (
+				0721AA441DE3DC2500407117 /* DemoMockSingletonTest.m */,
+				0721AA461DE3DE1600407117 /* NSObject+SupersequentImplementation.h */,
+				0721AA471DE3DE1600407117 /* NSObject+SupersequentImplementation.m */,
+				0721AA411DE3DC0900407117 /* HQYBaseTestCase.h */,
+				0721AA421DE3DC0900407117 /* HQYBaseTestCase.m */,
+				0721AA1B1DE2FC0500407117 /* Info.plist */,
+			);
+			path = DemoMockSingletonTests;
+			sourceTree = "<group>";
+		};
+		0721AA231DE2FC0500407117 /* DemoMockSingletonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0721AA241DE2FC0500407117 /* DemoMockSingletonUITests.m */,
+				0721AA261DE2FC0500407117 /* Info.plist */,
+			);
+			path = DemoMockSingletonUITests;
+			sourceTree = "<group>";
+		};
+		36BDBBC4914E630A94BB784C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E88887FC99542811BC83D9F0 /* libPods-DemoMockSingleton.a */,
+				A89E340E6D5D7FA3FB130D04 /* libPods-DemoMockSingletonTests.a */,
+				256FE1C663FC51E18F223159 /* libPods-DemoMockSingletonUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD022D40953A2746742BF57A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A06DF29255BC4B2198883A7 /* Pods-DemoMockSingleton.debug.xcconfig */,
+				E6CE715F6F619AC561DE6DB1 /* Pods-DemoMockSingleton.release.xcconfig */,
+				E4DB4AFE8B86311F889A7083 /* Pods-DemoMockSingletonTests.debug.xcconfig */,
+				AFAC59AFBC8DFC945D797FAD /* Pods-DemoMockSingletonTests.release.xcconfig */,
+				7C32A0C0499DA73900B703EF /* Pods-DemoMockSingletonUITests.debug.xcconfig */,
+				CF05446B6B3239A4B66DBFF6 /* Pods-DemoMockSingletonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0721A9F81DE2FC0500407117 /* DemoMockSingleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0721AA291DE2FC0500407117 /* Build configuration list for PBXNativeTarget "DemoMockSingleton" */;
+			buildPhases = (
+				F64F200857566B7F21895130 /* [CP] Check Pods Manifest.lock */,
+				0721A9F51DE2FC0500407117 /* Sources */,
+				0721A9F61DE2FC0500407117 /* Frameworks */,
+				0721A9F71DE2FC0500407117 /* Resources */,
+				91DA0752376E79766EB723DB /* [CP] Embed Pods Frameworks */,
+				AE508B320627E80191BF1A5F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoMockSingleton;
+			productName = DemoMockSingleton;
+			productReference = 0721A9F91DE2FC0500407117 /* DemoMockSingleton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0721AA141DE2FC0500407117 /* DemoMockSingletonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0721AA2C1DE2FC0500407117 /* Build configuration list for PBXNativeTarget "DemoMockSingletonTests" */;
+			buildPhases = (
+				0B0F2FA598A06B0369FCAD7B /* [CP] Check Pods Manifest.lock */,
+				0721AA111DE2FC0500407117 /* Sources */,
+				0721AA121DE2FC0500407117 /* Frameworks */,
+				0721AA131DE2FC0500407117 /* Resources */,
+				37793D841B908B7BD64150A5 /* [CP] Embed Pods Frameworks */,
+				042759EA9BBA9158669A4C5D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0721AA171DE2FC0500407117 /* PBXTargetDependency */,
+			);
+			name = DemoMockSingletonTests;
+			productName = DemoMockSingletonTests;
+			productReference = 0721AA151DE2FC0500407117 /* DemoMockSingletonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0721AA1F1DE2FC0500407117 /* DemoMockSingletonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0721AA2F1DE2FC0500407117 /* Build configuration list for PBXNativeTarget "DemoMockSingletonUITests" */;
+			buildPhases = (
+				09BA59B9A3522BCB9D6DE262 /* [CP] Check Pods Manifest.lock */,
+				0721AA1C1DE2FC0500407117 /* Sources */,
+				0721AA1D1DE2FC0500407117 /* Frameworks */,
+				0721AA1E1DE2FC0500407117 /* Resources */,
+				A294B5BE34F211555E1E500E /* [CP] Embed Pods Frameworks */,
+				81B3D9D1E1770E3C49649B1C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0721AA221DE2FC0500407117 /* PBXTargetDependency */,
+			);
+			name = DemoMockSingletonUITests;
+			productName = DemoMockSingletonUITests;
+			productReference = 0721AA201DE2FC0500407117 /* DemoMockSingletonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0721A9F11DE2FC0500407117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					0721A9F81DE2FC0500407117 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					0721AA141DE2FC0500407117 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0721A9F81DE2FC0500407117;
+					};
+					0721AA1F1DE2FC0500407117 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0721A9F81DE2FC0500407117;
+					};
+				};
+			};
+			buildConfigurationList = 0721A9F41DE2FC0500407117 /* Build configuration list for PBXProject "DemoMockSingleton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0721A9F01DE2FC0500407117;
+			productRefGroup = 0721A9FA1DE2FC0500407117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0721A9F81DE2FC0500407117 /* DemoMockSingleton */,
+				0721AA141DE2FC0500407117 /* DemoMockSingletonTests */,
+				0721AA1F1DE2FC0500407117 /* DemoMockSingletonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0721A9F71DE2FC0500407117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0721AA0F1DE2FC0500407117 /* LaunchScreen.storyboard in Resources */,
+				0721AA0C1DE2FC0500407117 /* Assets.xcassets in Resources */,
+				0721AA071DE2FC0500407117 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0721AA131DE2FC0500407117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0721AA1E1DE2FC0500407117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		042759EA9BBA9158669A4C5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoMockSingletonTests/Pods-DemoMockSingletonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09BA59B9A3522BCB9D6DE262 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0B0F2FA598A06B0369FCAD7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37793D841B908B7BD64150A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoMockSingletonTests/Pods-DemoMockSingletonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81B3D9D1E1770E3C49649B1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoMockSingletonUITests/Pods-DemoMockSingletonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91DA0752376E79766EB723DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoMockSingleton/Pods-DemoMockSingleton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A294B5BE34F211555E1E500E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoMockSingletonUITests/Pods-DemoMockSingletonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE508B320627E80191BF1A5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoMockSingleton/Pods-DemoMockSingleton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F64F200857566B7F21895130 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0721A9F51DE2FC0500407117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0721AA0A1DE2FC0500407117 /* DemoMockSingleton.xcdatamodeld in Sources */,
+				0721AA341DE2FCB000407117 /* HQYSharedManager.m in Sources */,
+				0721AA041DE2FC0500407117 /* ViewController.m in Sources */,
+				0721AA011DE2FC0500407117 /* AppDelegate.m in Sources */,
+				0721A9FE1DE2FC0500407117 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0721AA111DE2FC0500407117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0721AA451DE3DC2500407117 /* DemoMockSingletonTest.m in Sources */,
+				0721AA481DE3DE1600407117 /* NSObject+SupersequentImplementation.m in Sources */,
+				0721AA431DE3DC0900407117 /* HQYBaseTestCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0721AA1C1DE2FC0500407117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0721AA251DE2FC0500407117 /* DemoMockSingletonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0721AA171DE2FC0500407117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0721A9F81DE2FC0500407117 /* DemoMockSingleton */;
+			targetProxy = 0721AA161DE2FC0500407117 /* PBXContainerItemProxy */;
+		};
+		0721AA221DE2FC0500407117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0721A9F81DE2FC0500407117 /* DemoMockSingleton */;
+			targetProxy = 0721AA211DE2FC0500407117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0721AA051DE2FC0500407117 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0721AA061DE2FC0500407117 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0721AA0D1DE2FC0500407117 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0721AA0E1DE2FC0500407117 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0721AA271DE2FC0500407117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0721AA281DE2FC0500407117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0721AA2A1DE2FC0500407117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A06DF29255BC4B2198883A7 /* Pods-DemoMockSingleton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = DemoMockSingleton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mac.DemoMockSingleton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0721AA2B1DE2FC0500407117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6CE715F6F619AC561DE6DB1 /* Pods-DemoMockSingleton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = DemoMockSingleton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mac.DemoMockSingleton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0721AA2D1DE2FC0500407117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4DB4AFE8B86311F889A7083 /* Pods-DemoMockSingletonTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = DemoMockSingletonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mac.DemoMockSingletonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoMockSingleton.app/DemoMockSingleton";
+			};
+			name = Debug;
+		};
+		0721AA2E1DE2FC0500407117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFAC59AFBC8DFC945D797FAD /* Pods-DemoMockSingletonTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = DemoMockSingletonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mac.DemoMockSingletonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoMockSingleton.app/DemoMockSingleton";
+			};
+			name = Release;
+		};
+		0721AA301DE2FC0500407117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C32A0C0499DA73900B703EF /* Pods-DemoMockSingletonUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = DemoMockSingletonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mac.DemoMockSingletonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DemoMockSingleton;
+			};
+			name = Debug;
+		};
+		0721AA311DE2FC0500407117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF05446B6B3239A4B66DBFF6 /* Pods-DemoMockSingletonUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = DemoMockSingletonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mac.DemoMockSingletonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DemoMockSingleton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0721A9F41DE2FC0500407117 /* Build configuration list for PBXProject "DemoMockSingleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0721AA271DE2FC0500407117 /* Debug */,
+				0721AA281DE2FC0500407117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0721AA291DE2FC0500407117 /* Build configuration list for PBXNativeTarget "DemoMockSingleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0721AA2A1DE2FC0500407117 /* Debug */,
+				0721AA2B1DE2FC0500407117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0721AA2C1DE2FC0500407117 /* Build configuration list for PBXNativeTarget "DemoMockSingletonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0721AA2D1DE2FC0500407117 /* Debug */,
+				0721AA2E1DE2FC0500407117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0721AA2F1DE2FC0500407117 /* Build configuration list for PBXNativeTarget "DemoMockSingletonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0721AA301DE2FC0500407117 /* Debug */,
+				0721AA311DE2FC0500407117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0721AA081DE2FC0500407117 /* DemoMockSingleton.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0721AA091DE2FC0500407117 /* DemoMockSingleton.xcdatamodel */,
+			);
+			currentVersion = 0721AA091DE2FC0500407117 /* DemoMockSingleton.xcdatamodel */;
+			path = DemoMockSingleton.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0721A9F11DE2FC0500407117 /* Project object */;
+}
