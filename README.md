@@ -53,13 +53,6 @@ mock_singleton_##__className = nil;                                     \
 \
 @end
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wobjc-protocol-method-implementation"
-
-JTKMOCK_SINGLETON(CDUserManager, sharedManager)
-
-#pragma clang diagnostic pop
-
 ```
 
 
